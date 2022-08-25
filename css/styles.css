@@ -411,6 +411,7 @@ code, kbd, samp {
 
 small {
     font-size: 80%;
+    margin: 20px;
 }
 
 /* Prevent `sub` and `sup` elements from affecting the line height in
@@ -5466,6 +5467,18 @@ body.search-is-visible {
     justify-items: center;
     justify-content: center;
     align-content: space-evenly;
+}
+
+.lotter {
+    display: grid;
+    width: 100%;
+    margin: 0 130px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    margin: -90px 0;
 }
 
 .borderr {
